@@ -61,10 +61,10 @@
                             p.mb-0 #[b Ejemplo:] saldo contrario a la naturaleza de una cuenta.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/temas/t4/img1.png', style="width: 500px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/temas/t4/img1.png', style="width: 350px", data-aos="zoom-in").m-auto
             //- Fin Carrusel
             p(data-aos="fade-left") Los reportes convierten los registros en información útil para verificar cuentas, controlar operaciones y preparar estados financieros. 
-      Separador
+            Separador
       //- Inicio Tema4.2
       .row
         #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -117,7 +117,7 @@
           h2 4.3 Reportes auxiliares de clientes, proveedores, bancos e inventarios
       p(data-aos="fade-left") Los reportes auxiliares detallan la composición del saldo de una cuenta por tercero, documento, fecha, concepto o movimiento. Esta información permite explicar los valores consolidados en los libros contables. A continuación, se estudian los principales reportes auxiliares, la información que permiten revisar y algunas inconsistencias frecuentes:
       //- Inicio Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -216,8 +216,8 @@
                       td Cuentas de resultado
                       td ¿Ingresos, costos y gastos corresponden al periodo?
                       td Revisar causación y soportes
-      //- Tabla de Revisión del Balance de Prueba
-      Separador
+            //- Tabla de Revisión del Balance de Prueba
+            Separador
       //- Inicio Tema4.5
       .row
         #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -390,7 +390,7 @@
                         img(src='@/assets/curso/temas/t4/tarjeta04_7.png').img125
             //- Fin Línea de tiempo
             p(data-aos="fade-left") Cada etapa transforma y consolida la información sin perder su conexión con el soporte original.
-      Separador
+            Separador
       //- Inicio Tema4.8
       .row
         #t_4_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -401,7 +401,7 @@
             p.mb-0 Antes de elaborar los reportes y estados financieros, deben verificarse los saldos y registros contables. Esta revisión permite identificar, analizar y corregir diferencias. Este caso presenta este proceso:
           .bg-color-9.p-3
             p.mb-3 <b>Caso aplicado</b>
-            p La empresa Comercial San Miguel S.A.S. revisa sus registros del mes de junio y genera un balance de prueba preliminar. Al revisar los reportes auxiliares, identifica que la cuenta de clientes presenta un saldo general de $12.000.000, pero los auxiliares por cliente suman $11.500.000. Esta diferencia indica que existe un registro sin tercero asociado o una inconsistencia en la aplicación de un recaudo. La siguiente tabla presenta hallazgos frecuentes antes de elaborar reportes contables y estados financieros:
+            p La empresa Comercial San Miguel S.A.S. revisa sus registros del mes de junio y genera un balance de prueba preliminar. Al revisar los reportes auxiliares, identifica que la cuenta de clientes presenta un saldo general de $ 12.000.000, pero los auxiliares por cliente suman $ 11.500.000. Esta diferencia indica que existe un registro sin tercero asociado o una inconsistencia en la aplicación de un recaudo. La siguiente tabla presenta hallazgos frecuentes antes de elaborar reportes contables y estados financieros:
         .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0
             img.mx-auto(src="@/assets/curso/temas/t4/img6.png", data-aos="zoom-in", style="width: 100%; max-width: 500px;")

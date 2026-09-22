@@ -300,7 +300,7 @@
                       td Reportes contables.
                       td Periodo, tipo de reporte.
                       td Análisis financiero y control.
-      p(data-aos="fade-left") La organización debe relacionar cada documento con la operación y el registro correspondiente. El siguiente caso aplica estos criterios a las facturas de compra:
+            p(data-aos="fade-left") La organización debe relacionar cada documento con la operación y el registro correspondiente. El siguiente caso aplica estos criterios a las facturas de compra:
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img7.png')})` }")
@@ -535,7 +535,7 @@
         .col-lg-7.bg-color-4.d-flex.flex-column.justify-content-center.p-3
           p.mb-3 La conservación debe complementarse con trazabilidad, seguridad y criterios de organización que faciliten la consulta. Para ampliar el contenido, se presenta un ejemplo:
           p <b>Ejemplo aplicado</b>
-          p.mb-0 Una empresa necesita revisar el pago realizado a un proveedor hace seis meses. Para verificarlo, debe consultar la factura, el comprobante de egreso, el soporte bancario y el registro contable. Si estos documentos están relacionados y organizados, la revisión puede realizarse en pocos minutos.
+          p.mb-3 Una empresa necesita revisar el pago realizado a un proveedor hace seis meses. Para verificarlo, debe consultar la factura, el comprobante de egreso, el soporte bancario y el registro contable. Si estos documentos están relacionados y organizados, la revisión puede realizarse en pocos minutos.
           p.mb-0 Si los documentos están dispersos en correos, carpetas personales y archivos sin nombre claro, la revisión puede tomar mucho más tiempo o no completarse. Esto demuestra que la gestión documental contable no solo sirve para guardar documentos, sino para facilitar su uso cuando la información se requiere.
       Separador
       //- Inicio Tema2.8
@@ -551,9 +551,6 @@
             br
             br
             | La empresa Comercial Los Cedros S.A.S. necesita organizar los documentos contables correspondientes al año 2026. Para ello, establece criterios uniformes según la naturaleza y el uso de cada documento:
-            br
-            br
-            | Si la documentación se conservó de manera organizada, podrá responder oportunamente. En cambio, la información eliminada o archivada sin criterios dificultará la comprobación de las operaciones registradas.
       //- Tabla de Organización Documental Contable
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12

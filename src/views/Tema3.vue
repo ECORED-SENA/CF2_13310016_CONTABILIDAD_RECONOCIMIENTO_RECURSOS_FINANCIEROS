@@ -61,7 +61,7 @@
                             p.mb-0 #[b Ejemplo:] consulta de una venta a crédito.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/temas/t3/img1.png', style="width: 500px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/temas/t3/img1.png', style="width: 350px", data-aos="zoom-in").m-auto
             //- Fin Carrusel
             p(data-aos="fade-left") Los libros pueden llevarse en medios físicos o electrónicos, siempre que permitan conservar, consultar y verificar la información. 
       .row.justify-content-center.align-items-stretch.mb-2(data-aos="fade-right")
@@ -151,27 +151,27 @@
                       th(style="width: 25%") Ejemplo
                   tbody
                     tr
-                      td #[b Libro diario]
+                      td Libro diario
                       td Por fecha de operación.
                       td Revisar el orden cronológico de los registros.
                       td Asiento de compra del 5 de mayo.
                     tr
-                      td #[b Libro mayor]
+                      td Libro mayor
                       td Por cuenta contable
                       td Revisar movimientos y saldos de cada cuenta.
                       td Movimiento de bancos.
                     tr
-                      td #[b Libro auxiliar]
+                      td Libro auxiliar
                       td Por tercero, documento o detalle.
                       td Revisar información específica.
                       td Saldo de un proveedor.
                     tr
-                      td #[b Reporte de comprobantes]
+                      td Reporte de comprobantes
                       td Por número de comprobante.
                       td Revisar el registro técnico de una operación.
                       td Comprobante de egreso.
                     tr
-                      td #[b Balance de prueba]
+                      td Balance de prueba
                       td Por cuentas y saldos.
                       td Verificar saldos acumulados.
                       td Débitos, créditos y saldo final.
@@ -232,7 +232,7 @@
                 p.mb-4 #[b Ejemplo:] inventarios, impuesto descontable y proveedores.
               .row(titulo="Débitos y créditos")
                 p.mb-2 Registra los valores de acuerdo con la naturaleza de las cuentas y garantiza la partida doble.
-                p.mb-4 #[b Ejemplo:] débito a inventarios por $1.000.000, débito al impuesto descontable por $190.000 y crédito a proveedores por $1.190.000.
+                p.mb-4 #[b Ejemplo:] débito a inventarios por $ 1.000.000, débito al impuesto descontable por $ 190.000 y crédito a proveedores por $ 1.190.000.
               .row(titulo="Elaboración y revisión")
                 p.mb-2 Identifica a los responsables de preparar y verificar el comprobante.
                 p.mb-4 #[b Ejemplo:] auxiliar contable y contador.
@@ -256,59 +256,62 @@
         #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.5 Relación entre comprobantes, soportes y libros contables
       p(data-aos="fade-left") Los soportes, comprobantes y libros cumplen funciones diferentes, pero se relacionan para garantizar la trazabilidad y verificación de la información contable. La ruta que explica cómo una operación pasa del documento inicial a los registros, saldos y reportes contables es la siguiente:
-      //- Linea de tiempo
-      .row.justify-content-center
-        .col-lg-9
-          PasosA.color-acento-contenido.mb-4(tipo="n")
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Soporte
-                p Demuestra que la operación ocurrió y contiene sus datos iniciales.
-                p #[b Pregunta que responde:] ¿Qué documento prueba la operación?
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_1.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_2.png').img125
-              .col-12.col-lg.text-start
-                h4 Comprobante
-                p Resume la forma en que la operación fue registrada, incluidas las cuentas, los débitos y los créditos.
-                p #[b Pregunta que responde:] ¿Cómo se registró contablemente?
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Libro diario
-                p Organiza los registros según el orden cronológico de las operaciones.
-                p #[b Pregunta que responde:] ¿Cuándo se registró?
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_3.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_4.png').img125
-              .col-12.col-lg.text-start
-                h4 Libro mayor
-                p Acumula los movimientos y saldos de cada cuenta contable.
-                p #[b Pregunta que responde:] ¿Qué cuentas fueron afectadas?
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Libro auxiliar
-                p Detalla los movimientos por tercero, documento o concepto específico.
-                p #[b Pregunta que responde:] ¿Qué tercero o detalle está relacionado?
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_5.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t3/tarjeta02_6.png').img125
-              .col-12.col-lg.text-start
-                h4 Reporte contable
-                p Consolida la información para facilitar su control, análisis y comunicación.
-                p #[b Pregunta que responde:] ¿Cuál es el resultado acumulado?
-      //- Linea de tiempo
+      .row.bg-fondo-3(data-aos="fade-right")
+        .col-12
+          .pt-3.pb-5.px-5
+            //- Linea de tiempo
+            .row.justify-content-center
+              .col-lg-9
+                PasosA.color-acento-contenido.mb-4(tipo="n")
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Soporte
+                      p Demuestra que la operación ocurrió y contiene sus datos iniciales.
+                      p #[b Pregunta que responde:] ¿Qué documento prueba la operación?
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_1.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_2.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Comprobante
+                      p Resume la forma en que la operación fue registrada, incluidas las cuentas, los débitos y los créditos.
+                      p #[b Pregunta que responde:] ¿Cómo se registró contablemente?
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Libro diario
+                      p Organiza los registros según el orden cronológico de las operaciones.
+                      p #[b Pregunta que responde:] ¿Cuándo se registró?
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_3.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_4.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Libro mayor
+                      p Acumula los movimientos y saldos de cada cuenta contable.
+                      p #[b Pregunta que responde:] ¿Qué cuentas fueron afectadas?
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Libro auxiliar
+                      p Detalla los movimientos por tercero, documento o concepto específico.
+                      p #[b Pregunta que responde:] ¿Qué tercero o detalle está relacionado?
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_5.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t3/tarjeta02_6.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Reporte contable
+                      p Consolida la información para facilitar su control, análisis y comunicación.
+                      p #[b Pregunta que responde:] ¿Cuál es el resultado acumulado?
+            //- Linea de tiempo
       p(data-aos="fade-left") La relación entre estos elementos permite reconstruir una operación desde su soporte hasta el reporte final.
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
@@ -377,10 +380,10 @@
                     span #[b Cuenta contable:] clasifica el movimiento según su naturaleza. Ejemplo: cuentas por cobrar, ingresos e impuesto generado.
                   li.d-flex.align-items-start.mb-2
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
-                    span #[b Débito:] registra los valores correspondientes en las cuentas afectadas. Ejemplo: cuentas por cobrar por $1.190.000.
+                    span #[b Débito:] registra los valores correspondientes en las cuentas afectadas. Ejemplo: cuentas por cobrar por $ 1.190.000.
                   li.d-flex.align-items-start
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
-                    span #[b Crédito:] registra la contrapartida del asiento. Ejemplo: ingresos por $1.000.000 e impuesto generado por $190.000.
+                    span #[b Crédito:] registra la contrapartida del asiento. Ejemplo: ingresos por $ 1.000.000 e impuesto generado por $ 190.000.
           .py-3.py-md-4(titulo="Saldo y verificación")
             .row.align-items-center
               .col-md-6.mb-4.mb-md-0
@@ -391,7 +394,7 @@
                 ul.lista-ul.color-vinotinto-custom.mb-0
                   li.d-flex.align-items-start.mb-2
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
-                    span #[b Saldo:] presenta el valor acumulado después del movimiento. Ejemplo: saldo pendiente del cliente por $1.190.000.
+                    span #[b Saldo:] presenta el valor acumulado después del movimiento. Ejemplo: saldo pendiente del cliente por $ 1.190.000.
                   li.d-flex.align-items-start
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
                     span #[b Verificación:] comprueba la igualdad entre débitos y créditos y su correspondencia con el soporte.
@@ -466,9 +469,9 @@
                             p.mb-0 #[b Posibles inconsistencias:] impuestos omitidos, bases incorrectas o retenciones mal registradas.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/temas/t3/img12.png', style="width: 500px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/temas/t3/img12.png', style="width: 300px", data-aos="zoom-in").m-auto
             //- Fin Carrusel
-      p(data-aos="fade-left") La revisión debe considerar la naturaleza de cada cuenta y comparar sus movimientos y saldos con los documentos correspondientes.
+            p(data-aos="fade-left") La revisión debe considerar la naturaleza de cada cuenta y comparar sus movimientos y saldos con los documentos correspondientes.
       .row.justify-content-center.align-items-stretch.mb-2.g-0(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
@@ -476,7 +479,7 @@
         .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-4          
           p Este caso presenta una diferencia en la cuenta de clientes:
           p <b>Ejemplo aplicado</b>
-          p El libro mayor presenta un saldo de $8.000.000 en la cuenta de clientes, pero el auxiliar de cartera suma $7.200.000. Esta diferencia indica que existe un registro que no está correctamente asociado a un cliente o que se presentó una inconsistencia entre el mayor y el auxiliar.
+          p El libro mayor presenta un saldo de $ 8.000.000 en la cuenta de clientes, pero el auxiliar de cartera suma $ 7.200.000. Esta diferencia indica que existe un registro que no está correctamente asociado a un cliente o que se presentó una inconsistencia entre el mayor y el auxiliar.
           p.mb-0 La revisión debe identificar los movimientos que generan la diferencia, verificar los comprobantes y corregir la información para que los saldos coincidan antes de elaborar reportes financieros.
       Separador
       //- Inicio Tema3.8
@@ -487,7 +490,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-8.p-4(data-aos="fade-left")
           p <b>Ejemplo aplicado</b> 
-          p Comercial El Progreso S.A.S. vende mercancía a crédito por $1.000.000, más IVA del 19 %. La operación está respaldada por la factura de venta núm. 1025, emitida a nombre del cliente Almacén Rivera. La tabla siguiente presenta la forma básica de registrar una venta a crédito en el comprobante y en los libros contables:
+          p Comercial El Progreso S.A.S. vende mercancía a crédito por $ 1.000.000, más IVA del 19 %. La operación está respaldada por la factura de venta núm. 1025, emitida a nombre del cliente Almacén Rivera. La tabla siguiente presenta la forma básica de registrar una venta a crédito en el comprobante y en los libros contables:
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img14.png', alt='', style="width: 450px")
@@ -516,7 +519,7 @@
                         td Factura No. 1025
                         td Diario No. 045
                         td Clientes
-                        td $1.190.000
+                        td $ 1.190.000
                         td
                       tr
                         td 12/06/2026
@@ -524,22 +527,22 @@
                         td Diario No. 045
                         td Ingresos por ventas
                         td
-                        td $1.000.000
+                        td $ 1.000.000
                       tr
                         td 12/06/2026
                         td Factura No. 1025
                         td Diario No. 045
                         td IVA generado
                         td
-                        td $190.000
+                        td $ 190.000
             //- Fin Tabla
             .row.mb-5.justify-content-center.align-items-center
               .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
                 figure.mb-0.text-center
                   img.mx-auto(src='@/assets/curso/temas/t3/img15.png', alt='', style="width: 500px")
-              .col-12.col-lg-7.order-2.order-lg-2.bg-color-2.p-4(data-aos="fade-left")
+              .col-12.col-lg-7.order-2.order-lg-2.bg-color-9.p-4(data-aos="fade-left")
                 p La interpretación es la siguiente:
-                p <b>Interpretación:</b> la venta a crédito aumenta la cuenta por cobrar al cliente en $1.190.000, valor correspondiente a la mercancía y al IVA. A su vez, se reconocen ingresos por $1.000.000 y un IVA generado de $190.000. La igualdad entre débitos y créditos confirma el cumplimiento de la partida doble.
+                p <b>Interpretación:</b> la venta a crédito aumenta la cuenta por cobrar al cliente en $ 1.190.000, valor correspondiente a la mercancía y al IVA. A su vez, se reconocen ingresos por $ 1.000.000 y un IVA generado de $ 190.000. La igualdad entre débitos y créditos confirma el cumplimiento de la partida doble.
                 p El comprobante permite relacionar la fecha, la factura, el cliente, las cuentas y los valores. Posteriormente, el asiento se incorpora cronológicamente en el libro diario, se agrupa por cuentas en el libro mayor y se detalla en el auxiliar del cliente.
                 p Cuando Almacén Rivera pague la factura, se registrará el ingreso del dinero y la disminución de la cuenta por cobrar. Esta secuencia garantiza la trazabilidad entre el soporte, el comprobante y los libros contables.
             p(data-aos="fade-left") Los libros y comprobantes organizan los hechos económicos y permiten verificar sus movimientos y saldos. Su adecuado diligenciamiento fortalece la trazabilidad, el control y la confiabilidad de la información contable.

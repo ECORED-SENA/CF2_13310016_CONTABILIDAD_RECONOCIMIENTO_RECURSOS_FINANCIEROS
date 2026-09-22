@@ -149,7 +149,7 @@
                             p.text-center El reconocimiento de la operación en el periodo contable correspondiente.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/temas/t1/img1.png', style="width: 500px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/temas/t1/img1.png', style="width: 300px", data-aos="zoom-in").m-auto
               //- Fin Carrusel
             .row.justify-content-center.align-items-stretch.mb-2.g-0(data-aos="fade-right")
               .col-lg-5.d-flex
@@ -158,7 +158,7 @@
               .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-4
                 p.mb-3 Seguidamente, se expone ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:
                 p <b>Ejemplo aplicado</b>
-                p Una empresa registra una factura de compra por $2.500.000 como gasto de papelería, pero al revisar el soporte se identifica que corresponde a compra de mercancía para la venta. La verificación permite identificar que la cuenta utilizada no corresponde a la naturaleza del hecho económico. En este caso, el error no está en la existencia del documento, sino en la interpretación contable de la operación.
+                p Una empresa registra una factura de compra por $ 2.500.000 como gasto de papelería, pero al revisar el soporte se identifica que corresponde a compra de mercancía para la venta. La verificación permite identificar que la cuenta utilizada no corresponde a la naturaleza del hecho económico. En este caso, el error no está en la existencia del documento, sino en la interpretación contable de la operación.
                 p.mb-0 El ajuste consistiría en reclasificar el valor a inventarios, si corresponde, y dejar evidencia de la corrección realizada. Así se evita que el gasto del periodo quede sobrestimado y que el inventario quede incompleto. La corrección debe conservar trazabilidad, porque la información contable debe poder verificarse posteriormente a partir de soportes, comprobantes y libros.
       Separador
       //- Inicio Tema1.2
@@ -166,71 +166,74 @@
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.2 Relación entre hecho económico, soporte, comprobante y registro
       p(data-aos="fade-left") La información contable se construye mediante una secuencia documental y técnica que permite conservar la trazabilidad de cada operación hasta su presentación en reportes. La siguiente secuencia relaciona cada elemento con su función y permite comprender el recorrido de la información contable.
-      //- Linea de tiempo
-      .row.justify-content-center
-        .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Hecho económico
-                p Corresponde a la operación que afecta la situación financiera de la empresa y da origen al proceso contable.
-                p #[b Ejemplo:] compra de mercancía.
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_1.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_2.png').img125
-              .col-12.col-lg.text-start
-                h4 Soporte
-                p Es el documento que prueba la operación y proporciona los datos necesarios para respaldar el registro.
-                p #[b Ejemplo:] factura de compra.
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Comprobante
-                p Es el documento interno que resume y organiza la información de la operación antes de su incorporación en los registros.
-                p #[b Ejemplo:] comprobante de contabilidad.
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_3.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_4.png').img125
-              .col-12.col-lg.text-start
-                h4 Registro
-                p Es el asiento contable mediante el cual se afectan las cuentas correspondientes, según la naturaleza de la operación.
-                p #[b Ejemplo:] débito a inventarios y crédito a proveedores.
-            .row.align-items-center
-              .col-12.col-lg
-                h4 Libro o sistema
-                p Es el medio en el que se acumula y organiza la información contable registrada.
-                p #[b Ejemplo:] libro diario o software contable.
-              .col-12.col-lg-auto.mt-3.mt-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_5.png').img125
-            .row.align-items-center
-              .col-12.col-lg-auto.mb-3.mb-lg-0
-                figure
-                  img(src='@/assets/curso/temas/t1/tarjeta04_6.png').img125
-              .col-12.col-lg.text-start
-                h4 Reporte
-                p Es la salida de información que permite revisar los movimientos, saldos y resultados de las operaciones registradas.
-                p #[b Ejemplo:] auxiliar de proveedores o balance de prueba.
-      p(data-aos="fade-left") Los comprobantes se elaboran con base en los soportes y respaldan los registros contables. Su relación coherente facilita la verificación y garantiza la integridad de la información. El caso posterior aplica esta secuencia al pago de una obligación:
-      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
-        .bloque-texto-g__img(
-          :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img3.png')})` }")
-        .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo aplicado</b>
-            br
-            br
-            | Una empresa paga a un proveedor mediante transferencia bancaria. El hecho económico es el pago de una obligación; el soporte puede ser el comprobante bancario y la factura cancelada; el comprobante de contabilidad resume el pago; y el registro contable debita proveedores y acredita bancos.
-            br
-            br
-            | Si la factura aún aparece pendiente, se debe comprobar que el pago esté aplicado a la obligación correcta y asociado con su soporte y comprobante.
-      Separador
+      .row.bg-fondo-3(data-aos="fade-right")
+        .col-12
+          .pt-3.pb-5.px-5
+            //- Linea de tiempo
+            .row.justify-content-center
+              .col-lg-10
+                PasosA.color-acento-contenido.mb-4(tipo="n")
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Hecho económico
+                      p Corresponde a la operación que afecta la situación financiera de la empresa y da origen al proceso contable.
+                      p #[b Ejemplo:] compra de mercancía.
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_1.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_2.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Soporte
+                      p Es el documento que prueba la operación y proporciona los datos necesarios para respaldar el registro.
+                      p #[b Ejemplo:] factura de compra.
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Comprobante
+                      p Es el documento interno que resume y organiza la información de la operación antes de su incorporación en los registros.
+                      p #[b Ejemplo:] comprobante de contabilidad.
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_3.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_4.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Registro
+                      p Es el asiento contable mediante el cual se afectan las cuentas correspondientes, según la naturaleza de la operación.
+                      p #[b Ejemplo:] débito a inventarios y crédito a proveedores.
+                  .row.align-items-center
+                    .col-12.col-lg
+                      h4 Libro o sistema
+                      p Es el medio en el que se acumula y organiza la información contable registrada.
+                      p #[b Ejemplo:] libro diario o software contable.
+                    .col-12.col-lg-auto.mt-3.mt-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_5.png').img125
+                  .row.align-items-center
+                    .col-12.col-lg-auto.mb-3.mb-lg-0
+                      figure
+                        img(src='@/assets/curso/temas/t1/tarjeta04_6.png').img125
+                    .col-12.col-lg.text-start
+                      h4 Reporte
+                      p Es la salida de información que permite revisar los movimientos, saldos y resultados de las operaciones registradas.
+                      p #[b Ejemplo:] auxiliar de proveedores o balance de prueba.
+            p(data-aos="fade-left") Los comprobantes se elaboran con base en los soportes y respaldan los registros contables. Su relación coherente facilita la verificación y garantiza la integridad de la información. El caso posterior aplica esta secuencia al pago de una obligación:
+            .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+              .bloque-texto-g__img(
+                :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img3.png')})` }")
+              .bloque-texto-g__texto.p-4
+                p.mb-0 <b>Ejemplo aplicado</b>
+                  br
+                  br
+                  | Una empresa paga a un proveedor mediante transferencia bancaria. El hecho económico es el pago de una obligación; el soporte puede ser el comprobante bancario y la factura cancelada; el comprobante de contabilidad resume el pago; y el registro contable debita proveedores y acredita bancos.
+                  br
+                  br
+                  | Si la factura aún aparece pendiente, se debe comprobar que el pago esté aplicado a la obligación correcta y asociado con su soporte y comprobante.
+            Separador
       //- Inicio Tema1.3
       .row
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -287,7 +290,7 @@
                         td Sí / No
       //- Fin Tabla
       .row.justify-content-center.align-items-stretch.mb-2(data-aos="fade-right")
-        .col-lg-7.bg-color-2.d-flex.flex-column.justify-content-center.p-4
+        .col-lg-7.bg-color-9.d-flex.flex-column.justify-content-center.p-4
           p.mb-3 A continuación, se presenta un ejemplo aplicado del presente tema:
           p <b>Ejemplo aplicado</b>
           p Una factura electrónica de venta se encuentra registrada en contabilidad, pero el archivo digital no se conserva en la carpeta correspondiente ni se encuentra relacionado con el comprobante. Aunque el registro exista, la verificación documental queda incompleta porque no se puede consultar fácilmente el soporte.
@@ -419,7 +422,7 @@
                         td Verificar soporte y concepto.
       //- Fin Tabla
       .row.justify-content-center.align-items-stretch.mb-2(data-aos="fade-right")
-        .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-3
+        .col-lg-7.bg-color-10.d-flex.flex-column.justify-content-center.p-3
           p.mb-3 El siguiente caso permite identificar una cuenta incorrecta y sus efectos en la información contable:
           p <b>Ejemplo aplicado</b>
           p Una empresa registra un pago a un proveedor debitando gastos y acreditando bancos. Sin embargo, el pago correspondía a una factura ya reconocida como cuenta por pagar.
@@ -434,7 +437,7 @@
           h2 1.6 Identificación de errores frecuentes en los registros contables
       p(data-aos="fade-left") Los errores contables pueden afectar la confiabilidad de los reportes, los impuestos, las cuentas por cobrar, las obligaciones y los resultados empresariales. A partir de esta información, se estudian situaciones que relacionan los errores más frecuentes con sus efectos y las acciones necesarias para identificarlos y corregirlos:
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -557,7 +560,7 @@
             img.h-100.w-100(src='@/assets/curso/temas/t1/img11.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-4
           p.mb-3 Seguidamente, se expone ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:          
-          p Una empresa recibe $1.000.000 de un cliente por una factura pendiente, pero registra el recaudo como una nueva venta. El error duplica el ingreso y mantiene la cuenta por cobrar.
+          p Una empresa recibe $ 1.000.000 de un cliente por una factura pendiente, pero registra el recaudo como una nueva venta. El error duplica el ingreso y mantiene la cuenta por cobrar.
           p.mb-0 La corrección consiste en reversar el ingreso incorrecto, disminuir la cuenta por cobrar y confirmar que el recibo de caja esté asociado con la factura correspondiente.
       p(data-aos="fade-left") El siguiente pódcast complementa el tema mediante un caso aplicado sobre errores contables, sus efectos y las verificaciones necesarias para prevenir inconsistencias.
       //- Inicio Podcast
@@ -635,7 +638,7 @@
           p.mb-0 <b>Ejemplo aplicado</b>
             br
             br
-            | Una factura de papelería por $450.000 fue registrada en inventarios. Sin embargo, los elementos se adquirieron para uso administrativo y no para la venta.
+            | Una factura de papelería por $ 450.000 fue registrada en inventarios. Sin embargo, los elementos se adquirieron para uso administrativo y no para la venta.
             br
             br
             | La corrección consiste en trasladar el valor de inventarios a gastos de papelería. Así, se evita sobrestimar el inventario y el gasto refleja correctamente el consumo realizado.
@@ -660,44 +663,47 @@
               .col-md-auto.col-lg-12
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 3.
-                  span Tipos de ajustes contables y su aplicación
+                  span Registros sujetos a verificación
                 .tabla-a
                   table
                     thead
                       tr
-                        th(style="width: 25%") Tipo de ajuste
-                        th(style="width: 35%") Definición / Objetivo
-                        th(style="width: 40%") Ejemplo de aplicación
+                        th(style="width: 40%") Operación registrada
+                        th(style="width: 20%") Soporte revisado
+                        th(style="width: 20%") Hallazgo
+                        th(style="width: 20%") Acción sugerida
                     tbody
                       tr
-                        td Reclasificación
-                        td Traslada un valor entre cuentas cuando la clasificación inicial no corresponde con la naturaleza de la operación.
-                        td Trasladar una compra de inventarios a gastos de papelería.
+                        td Compra de mercancía registrada como gasto.
+                        td Factura de proveedor.
+                        td La mercancía era para la venta.
+                        td Reclasificar a inventarios.
                       tr
-                        td Anulación o reversión
-                        td Elimina el efecto de un registro duplicado, equivocado o que no corresponde con una operación real.
-                        td Reversar una factura registrada dos veces.
+                        td Recaudo de cliente registrado como venta.
+                        td Recibo de caja.
+                        td Correspondía a factura pendiente.
+                        td Reclasificar contra cuentas por cobrar.
                       tr
-                        td Registro faltante
-                        td Incorpora una operación que fue omitida durante el proceso contable.
-                        td Registrar una factura de compra pendiente.
+                        td Factura de servicios sin IVA registrado.
+                        td Factura electrónica.
+                        td Incluía IVA del 19 %.
+                        td Ajustar impuesto descontable si aplica.
                       tr
-                        td Ajuste de impuestos
-                        td Corrige impuestos o retenciones omitidos, registrados incorrectamente o calculados sobre una base equivocada.
-                        td Reconocer el IVA descontable correspondiente.
+                        td Pago a proveedor aplicado a tercero equivocado.
+                        td Comprobante bancario.
+                        td El beneficiario no coincide con el registro.
+                        td Corregir tercero y cuenta auxiliar.
                       tr
-                        td Corrección de tercero
-                        td Asocia el movimiento con el cliente, proveedor o beneficiario correcto.
-                        td Trasladar un pago al proveedor correspondiente.
+                        td Factura registrada dos veces.
+                        td Dos comprobantes con mismo consecutivo.
+                        td Duplicidad
+                        td Reversar el registro duplicado.
                       tr
-                        td Ajuste de periodo
-                        td Traslada la operación al periodo contable en el cual debió ser reconocida.
-                        td Registrar un gasto en el mes de causación.
-                      tr
-                        td Corrección de recaudo
-                        td Corrige un recaudo aplicado como venta o asociado con una cuenta por cobrar equivocada.
-                        td Disminuir la cartera y reversar el ingreso duplicado.
-            //- Fin Tabla
+                        td Compra de equipo registrada como gasto.
+                        td Factura de compra.
+                        td Es activo para uso de varios periodos.
+                        td Reclasificar como activo fijo.
+      //- Fin Tabla
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img16.png')})` }")

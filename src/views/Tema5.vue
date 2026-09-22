@@ -126,10 +126,10 @@
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t5/img2.png', alt='', style="width: 550px")
-        .col-12.col-lg-7.order-2.order-lg-1.bg-color-3.p-3(data-aos="fade-left")
+        .col-12.col-lg-7.order-2.order-lg-1.bg-color-10.p-3(data-aos="fade-left")
           p Este caso presenta una inconsistencia entre una factura, el comprobante y los reportes:
           p <b>Ejemplo aplicado</b>
-          p Una factura de venta por $2.000.000 aparece en el auxiliar de clientes, pero al revisar el comprobante no se encuentra asociado el soporte digital de la factura. Además, el reporte de cartera refleja el saldo pendiente, pero el archivo documental no permite ubicar fácilmente el documento que respalda la operación.
+          p Una factura de venta por $ 2.000.000 aparece en el auxiliar de clientes, pero al revisar el comprobante no se encuentra asociado el soporte digital de la factura. Además, el reporte de cartera refleja el saldo pendiente, pero el archivo documental no permite ubicar fácilmente el documento que respalda la operación.
           p La acción recomendada es asociar la factura electrónica al comprobante contable, verificar que el registro esté en el periodo correcto y confirmar que el saldo del cliente coincida con el auxiliar. Así se conserva la coherencia entre soporte, comprobante, libro y reporte.
       Separador
       //- Inicio Tema5.3
@@ -205,18 +205,18 @@
 
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
-                        img(src='@/assets/curso/temas/t5/img3.png', style="width: 500px", data-aos="zoom-in").m-auto
+                        img(src='@/assets/curso/temas/t5/img3.png', style="width: 350px", data-aos="zoom-in").m-auto
             //- Fin Carrusel
-      .row.mb-5.justify-content-center.align-items-center
-        .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
-          figure.mb-0.text-center
-            img.mx-auto(src='@/assets/curso/temas/t5/img4.png', alt='', style="width: 470px")
-        .col-12.col-lg-7.order-2.order-lg-1.bg-color-2.p-4(data-aos="fade-left")
-          p Los controles deben aplicarse de manera preventiva y periódica para detectar errores antes de generar información definitiva. Este caso presenta la importancia de controlar los documentos registrados:
-          p <b>Ejemplo aplicado</b>
-          p En una empresa se detecta que dos personas registran comprobantes sin revisar previamente si la factura ya fue ingresada al sistema. Como resultado, una misma factura de proveedor quedó registrada dos veces, aumentando indebidamente el gasto y la cuenta por pagar.
-          p La acción recomendada es implementar un control de consecutivos y una revisión previa por número de factura, proveedor y fecha antes de guardar el comprobante. Este control permite reducir duplicidades y mejorar la calidad de la información contable.
-      Separador
+            .row.mb-5.justify-content-center.align-items-center
+              .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
+                figure.mb-0.text-center
+                  img.mx-auto(src='@/assets/curso/temas/t5/img4.png', alt='', style="width: 470px")
+              .col-12.col-lg-7.order-2.order-lg-1.bg-color-2.p-4(data-aos="fade-left")
+                p Los controles deben aplicarse de manera preventiva y periódica para detectar errores antes de generar información definitiva. Este caso presenta la importancia de controlar los documentos registrados:
+                p <b>Ejemplo aplicado</b>
+                p En una empresa se detecta que dos personas registran comprobantes sin revisar previamente si la factura ya fue ingresada al sistema. Como resultado, una misma factura de proveedor quedó registrada dos veces, aumentando indebidamente el gasto y la cuenta por pagar.
+                p La acción recomendada es implementar un control de consecutivos y una revisión previa por número de factura, proveedor y fecha antes de guardar el comprobante. Este control permite reducir duplicidades y mejorar la calidad de la información contable.
+            Separador
       //- Inicio Tema5.4
       .row
         #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -281,7 +281,7 @@
           h2 5.5 Ergonomía en labores de digitación, archivo y revisión documental
       p(data-aos="fade-left") La ergonomía adapta las condiciones de trabajo a las capacidades de la persona para prevenir molestias, fatiga y lesiones. En las labores contables comprende la postura, el mobiliario, la iluminación, los equipos y la organización del espacio. A continuación, se presentan recomendaciones básicas para reducir riesgos ergonómicos en actividades contables:
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
