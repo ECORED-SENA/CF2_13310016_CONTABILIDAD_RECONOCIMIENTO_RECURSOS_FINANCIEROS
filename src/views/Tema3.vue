@@ -542,6 +542,7 @@
                 p <b>Interpretación:</b> la venta a crédito aumenta la cuenta por cobrar al cliente en $1.190.000, valor correspondiente a la mercancía y al IVA. A su vez, se reconocen ingresos por $1.000.000 y un IVA generado de $190.000. La igualdad entre débitos y créditos confirma el cumplimiento de la partida doble.
                 p El comprobante permite relacionar la fecha, la factura, el cliente, las cuentas y los valores. Posteriormente, el asiento se incorpora cronológicamente en el libro diario, se agrupa por cuentas en el libro mayor y se detalla en el auxiliar del cliente.
                 p Cuando Almacén Rivera pague la factura, se registrará el ingreso del dinero y la disminución de la cuenta por cobrar. Esta secuencia garantiza la trazabilidad entre el soporte, el comprobante y los libros contables.
+            p(data-aos="fade-left") Los libros y comprobantes organizan los hechos económicos y permiten verificar sus movimientos y saldos. Su adecuado diligenciamiento fortalece la trazabilidad, el control y la confiabilidad de la información contable.
 
 </template>
 

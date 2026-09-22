@@ -12,7 +12,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre operaciones técnicas y respuesta a emergencias, organizado en tres componentes: área técnica, gestión de riesgos y manejo de crisis y emergencias, con conceptos asociados a información operativa, amenazas, vulnerabilidades, alertas, eventos críticos, escalamiento, coordinación, respuesta y continuidad operativa.")
+            img(src="@/assets/curso/sintesis.svg", alt="La verificación y el reporte contable integran la revisión de soportes y registros, la gestión documental, los libros, los comprobantes y los estados financieros. Además, incorporan controles de seguridad, archivo, ergonomía y manejo ambiental. En conjunto, estos procesos garantizan información confiable, organizada y útil para el control y la toma de decisiones.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
