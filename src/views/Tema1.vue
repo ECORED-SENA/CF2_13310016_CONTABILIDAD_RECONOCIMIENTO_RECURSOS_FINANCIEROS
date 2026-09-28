@@ -111,7 +111,7 @@
                           img(src='@/assets/curso/temas/t1/tarjeta03_1.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Hecho económico
-                            p.text-center La existencia y naturaleza de la operación realizada.
+                            p.text-center La existencia y la naturaleza de la operación realizada.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t1/tarjeta03_2.png').w-100
                           .p-4
@@ -156,10 +156,10 @@
                 figure.mb-0.w-100
                   img.h-100.w-100(src='@/assets/curso/temas/t1/img2.png', alt='', style="object-fit: cover;")
               .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-4
-                p.mb-3 Seguidamente, se expone ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:
+                p.mb-3 Seguidamente, se expone un ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:
                 p <b>Ejemplo aplicado</b>
                 p Una empresa registra una factura de compra por $ 2.500.000 como gasto de papelería, pero al revisar el soporte se identifica que corresponde a compra de mercancía para la venta. La verificación permite identificar que la cuenta utilizada no corresponde a la naturaleza del hecho económico. En este caso, el error no está en la existencia del documento, sino en la interpretación contable de la operación.
-                p.mb-0 El ajuste consistiría en reclasificar el valor a inventarios, si corresponde, y dejar evidencia de la corrección realizada. Así se evita que el gasto del periodo quede sobrestimado y que el inventario quede incompleto. La corrección debe conservar trazabilidad, porque la información contable debe poder verificarse posteriormente a partir de soportes, comprobantes y libros.
+                p.mb-0 El ajuste consistiría en reclasificar el valor a inventarios, si corresponde, y dejar evidencia de la corrección realizada. Así se evita que el gasto del periodo quede sobreestimado y que el inventario quede incompleto. La corrección debe conservar trazabilidad, porque la información contable debe poder verificarse posteriormente a partir de soportes, comprobantes y libros.
       Separador
       //- Inicio Tema1.2
       .row
@@ -625,7 +625,7 @@
                 p.mb-4 #[b Ejemplo:] registrar un gasto en el mes de causación.
               .row(titulo="Corrección de recaudo")
                 p.mb-2 Corrige un recaudo aplicado como venta o asociado con una cuenta por cobrar equivocada.
-                p.mb-4 #[b Ejemplo:] disminuir la cartera y reversar el ingreso duplicado.
+                p.mb-4 #[b Ejemplo:] disminuir la cartera y revertir el ingreso duplicado.
           .col-lg-3.order-1.order-lg-2.mb-5.mb-lg-0
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t1/img13.png", alt="").img400.m-auto
@@ -649,7 +649,7 @@
           h2 1.8 Ejemplo aplicado de verificación de soportes y registros
       .row.justify-content-center.align-items-stretch.mb-2(data-aos="fade-right")
         .col-lg-7.bg-color-4.d-flex.flex-column.justify-content-center.p-3
-          p.mb-3 La aplicación conjunta de los criterios de verificación permite detectar inconsistencias y establecer las correcciones necesarias antes de generar reportes contables. El presen caso relaciona las operaciones registradas con sus soportes, los hallazgos identificados y las acciones de corrección correspondientes:
+          p.mb-3 La aplicación conjunta de los criterios de verificación permite detectar inconsistencias y establecer las correcciones necesarias antes de generar reportes contables. El presente caso relaciona las operaciones registradas con sus soportes, los hallazgos identificados y las acciones de corrección correspondientes:
           p <b>Ejemplo aplicado</b>
           p.mb-0 La empresa Comercial La Estrella S.A.S. presenta las siguientes operaciones registradas durante el mes:
         .col-lg-5.d-flex
@@ -695,7 +695,7 @@
                         td Corregir tercero y cuenta auxiliar.
                       tr
                         td Factura registrada dos veces.
-                        td Dos comprobantes con mismo consecutivo.
+                        td Dos comprobantes con el mismo consecutivo.
                         td Duplicidad
                         td Reversar el registro duplicado.
                       tr
@@ -714,7 +714,7 @@
             | <b>Ejemplo aplicado</b>
             br
             br
-            | <b>Interpretación:</b>    La existencia de un soporte no garantiza que el registro sea correcto. También se deben comprobar la naturaleza de la operación, el tercero, el valor, los impuestos, el periodo y las cuentas afectadas.
+            | <b>Interpretación:</b> la existencia de un soporte no garantiza que el registro sea correcto. También se deben comprobar la naturaleza de la operación, el tercero, el valor, los impuestos, el periodo y las cuentas afectadas.
             br
             br
             | Las correcciones propuestas fortalecen la coherencia, confiabilidad y trazabilidad de la información antes de elaborar libros, reportes y estados financieros.

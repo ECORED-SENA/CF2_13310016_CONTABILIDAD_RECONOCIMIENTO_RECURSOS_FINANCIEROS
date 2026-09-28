@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-stretch
         .col-12.col-md-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           .bg-color-2.p-4.rounded-4.h-100.d-flex.align-items-center
-            p.mb-0 El componente aborda la verificación de soportes y registros contables, la aplicación de la tabla de retención documental, la gestión de documentos físicos y digitales, el diligenciamiento de libros, y la elaboración de reportes contables y estados financieros básicos. También incorpora buenas prácticas de control, archivo, seguridad, ergonomía y manejo ambiental de residuos de papelería.
+            p.mb-0 El componente aborda la verificación de soportes y registros contables, la aplicación de la tabla de retención documental, la gestión de documentos físicos y digitales, el diligenciamiento de libros y la elaboración de reportes contables y estados financieros básicos. También incorpora buenas prácticas de control, archivo, seguridad, ergonomía y manejo ambiental de residuos de papelería.
         .col-12.col-md-12.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .h-100.d-flex
             img.img-fluid.rounded-3(src="@/assets/curso/temas/intro/img1.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")

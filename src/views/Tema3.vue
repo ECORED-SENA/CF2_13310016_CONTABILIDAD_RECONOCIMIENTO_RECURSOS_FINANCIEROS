@@ -98,7 +98,7 @@
                 p.mb-4 #[b Ejemplo:] auxiliares de clientes, proveedores, bancos o inventarios.
               .row(titulo="Libro de inventarios")
                 p.mb-2 Relaciona las existencias, los bienes y demás recursos de la empresa.
-                p.mb-4 #[b Ejemplo:] inventario de mercancías disponible para la venta.
+                p.mb-4 #[b Ejemplo:] inventario de mercancías disponibles para la venta.
       //- Fin Accordion 1
       //- Inicio Accordion 2
       .bg--img_03.mt-5
@@ -194,7 +194,7 @@
       .row
         #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.4 Concepto y función de los comprobantes de contabilidad
-      p(data-aos="fade-left") Los comprobantes de contabilidad son documentos internos que resumen las operaciones y sirven de enlace entre los soportes y los registros contables. Los elementos que permite identificar la operación, comprobar su respaldo y establecer las cuentas y valores registrados contablemente:
+      p(data-aos="fade-left") Los comprobantes de contabilidad son documentos internos que resumen las operaciones y sirven de enlace entre los soportes y los registros contables. Los elementos que permiten identificar la operación, comprobar su respaldo y establecer las cuentas y valores registrados contablemente:
       //- Inicio Accordion 1
       .bg--img_03.mt-5
         .row.justify-content-center
@@ -377,7 +377,7 @@
                 ul.lista-ul.color-vinotinto-custom.mb-0
                   li.d-flex.align-items-start.mb-2
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
-                    span #[b Cuenta contable:] clasifica el movimiento según su naturaleza. Ejemplo: cuentas por cobrar, ingresos e impuesto generado.
+                    span #[b Cuenta contable:] clasifica el movimiento según su naturaleza. Ejemplo: cuentas por cobrar, ingresos e impuestos generados.
                   li.d-flex.align-items-start.mb-2
                     i.fas.fa-magnifying-glass-dollar.me-3.mt-1
                     span #[b Débito:] registra los valores correspondientes en las cuentas afectadas. Ejemplo: cuentas por cobrar por $ 1.190.000.
@@ -436,37 +436,37 @@
                           .p-4
                             h4.card-title.text-center.mb-3 Bancos
                             p.mb-2 #[b Documento de comparación:] extracto bancario y conciliación.
-                            p.mb-0 #[b Posibles inconsistencias:] pagos no registrados, movimientos duplicados o diferencias pendientes de conciliación.
+                            p.mb-0 #[b Posibles inconsistencias:] Pagos no registrados, movimientos duplicados o diferencias pendientes de conciliación.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_2.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Clientes
                             p.mb-2 #[b Documento de comparación:] auxiliar de cartera y facturas de venta.
-                            p.mb-0 #[b Posibles inconsistencias:] recaudos no aplicados, facturas omitidas o saldos asignados al cliente equivocado.
+                            p.mb-0 #[b Posibles inconsistencias:] Recaudos no aplicados, facturas omitidas o saldos asignados al cliente equivocado.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_3.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Proveedores
                             p.mb-2 #[b Documento de comparación:] auxiliar de cuentas por pagar y facturas de compra.
-                            p.mb-0 #[b Posibles inconsistencias:] facturas omitidas, pagos mal aplicados o registros duplicados.
+                            p.mb-0 #[b Posibles inconsistencias:] Facturas omitidas, pagos mal aplicados o registros duplicados.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_4.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Inventarios
                             p.mb-2 #[b Documento de comparación:] kárdex y conteo físico.
-                            p.mb-0 #[b Posibles inconsistencias:] diferencias entre las existencias físicas y las cantidades registradas contablemente.
+                            p.mb-0 #[b Posibles inconsistencias:] Diferencias entre las existencias físicas y las cantidades registradas contablemente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_5.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Ingresos y gastos
                             p.mb-2 #[b Documentos de comparación:] facturas, recibos y comprobantes.
-                            p.mb-0 #[b Posibles inconsistencias:] ventas omitidas o duplicadas y gastos sin soporte o clasificados incorrectamente.
+                            p.mb-0 #[b Posibles inconsistencias:] Ventas omitidas o duplicadas y gastos sin soporte o clasificados incorrectamente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_6.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Impuestos
                             p.mb-2 #[b Documentos de comparación:] declaraciones, facturas y auxiliares contables.
-                            p.mb-0 #[b Posibles inconsistencias:] impuestos omitidos, bases incorrectas o retenciones mal registradas.
+                            p.mb-0 #[b Posibles inconsistencias:] Impuestos omitidos, bases incorrectas o retenciones mal registradas.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/temas/t3/img12.png', style="width: 300px", data-aos="zoom-in").m-auto
@@ -507,12 +507,12 @@
                   table
                     thead
                       tr
-                        th(style="width: 15%") Fecha
+                        th(style="width: 10%") Fecha
                         th(style="width: 20%") Soporte
                         th(style="width: 20%") Comprobante
-                        th(style="width: 25%") Cuenta
-                        th(style="width: 10%") Débito
-                        th(style="width: 10%") Crédito
+                        th(style="width: 20%") Cuenta
+                        th(style="width: 15%") Débito
+                        th(style="width: 15%") Crédito
                     tbody
                       tr
                         td 12/06/2026

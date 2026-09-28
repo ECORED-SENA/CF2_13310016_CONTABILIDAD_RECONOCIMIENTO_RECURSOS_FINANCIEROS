@@ -12,7 +12,7 @@
       .row
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.1 Concepto de gestión documental contable
-      p(data-aos="fade-left") Posteriormente, se explican su concepto, importancia y aplicación en la organización de los documentos relacionados con el proceso contable:
+      p(data-aos="fade-left") Posteriormente, se explica su concepto, importancia y aplicación en la organización de los documentos relacionados con el proceso contable:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5      
@@ -24,7 +24,7 @@
                     img(src='@/assets/curso/temas/t2/tarjeta01_1.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-4 Concepto
-                    p.mb-3 La gestión documental contable comprende las actividades destinadas a producir, recibir, clasificar, organizar, conservar, consultar y disponer los documentos relacionados con la información contable.
+                    p.mb-3 La gestión documental contable comprende las actividades destinadas a producir, recibir, clasificar, organizar, conservar, consultar y disponer de los documentos relacionados con la información contable.
                     p Incluye facturas, recibos, comprobantes, notas contables, contratos, extractos bancarios, libros, reportes auxiliares y estados financieros.
               .col-sm-12.col-md-6.col-lg-4.mb-4.d-flex.flex-column
                 .tarjeta.p-0.rounded-2.h-100.bg-color-5.overflow-hidden
@@ -100,7 +100,7 @@
       .row
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.2 Tabla de retención documental: concepto y finalidad
-      p(data-aos="fade-left") La tabla de retención documental establece los criterios para clasificar, conservar y disponer los documentos producidos por una entidad. Los siguientes apartados explican el concepto, la finalidad y la aplicación contable de la tabla de retención documental:
+      p(data-aos="fade-left") La tabla de retención documental establece los criterios para clasificar, conservar y disponer de los documentos producidos por una entidad. Los siguientes apartados explican el concepto, la finalidad y la aplicación contable de la tabla de retención documental:
       //- Pestanas horizontales
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
@@ -418,7 +418,7 @@
         #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.6 Sistema de gestión electrónica de documentos
       p(data-aos="fade-left") Un sistema de gestión electrónica permite organizar, almacenar, proteger y consultar los documentos digitales relacionados con los registros contables. 
-      p(data-aos="fade-left") Estas son funciones que contribuyen al control, la localización, la protección y la trazabilidad de los documentos contables almacenados electrónicament
+      p(data-aos="fade-left") Estas son funciones que contribuyen al control, la localización, la protección y la trazabilidad de los documentos contables almacenados electrónicamente.
       //- Inicio Accordion 1
       .bg--img_03.mt-5
         .row.justify-content-center
@@ -458,7 +458,7 @@
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img10.png", alt="").img400.m-auto
       //- Fin Accordion 2
-      p(data-aos="fade-left") El sistema debe configurarse según la estructura, los permisos, los formatos y los tiempos de conservación establecidos. A continuación, se expone caso que destaca la importancia de nombrar uniformemente los documentos:
+      p(data-aos="fade-left") El sistema debe configurarse según la estructura, los permisos, los formatos y los tiempos de conservación establecidos. A continuación, se expone un caso que destaca la importancia de nombrar uniformemente los documentos:
       .row.justify-content-center.align-items-stretch.mb-5.g-0(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
@@ -518,7 +518,7 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Integridad
                 p Evita modificaciones no autorizadas y conserva el contenido original del documento.
-                p <b>Aplicación:</b> proteger los archivos contra edición.
+                p <b>Aplicación:</b> proteger los archivos contra la edición.
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure

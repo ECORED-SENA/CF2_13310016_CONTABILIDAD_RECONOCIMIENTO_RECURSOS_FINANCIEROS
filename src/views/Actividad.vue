@@ -20,7 +20,7 @@ export default {
       tema: 'Cuestionario de verificación sobre reporte de la información contable',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Evaluar la comprensión de los conceptos y procedimientos relacionados con la verificación de soportes y registros contables, la gestión documental, el uso de la tabla de retención documental, el diligenciamiento de libros y comprobantes, la elaboración de reportes contables y estados financieros básicos, y la implementación de controles y buenas prácticas de archivo, seguridad, ergonomía y manejo ambientalmente responsable de los residuos de papelería.',
+        '<b>Objetivo:</b> evaluar la comprensión de los conceptos y procedimientos relacionados con la verificación de soportes y registros contables, la gestión documental, el uso de la tabla de retención documental, el diligenciamiento de libros y comprobantes, la elaboración de reportes contables y estados financieros básicos, y la implementación de controles y buenas prácticas de archivo, seguridad, ergonomía y manejo ambientalmente responsable de los residuos de papelería.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

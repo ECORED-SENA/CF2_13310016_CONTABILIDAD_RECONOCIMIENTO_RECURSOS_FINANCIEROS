@@ -420,7 +420,7 @@ export default {
     {
       referencia:
         'Molina S, H. (s.f.). Convergencia con las Normas Internacionales de Información Financiera (NIIF) en Colombia.',
-      link: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dian.gov.co/fizcalizacioncontrol/herramienconsulta/NIIF/Orientaciones%20CTCP/Documento3_Orientaciones_Tecnica_NIIF_para_las_Pymes_Marco.pdf?utm',
+      link: 'https://www.dian.gov.co/fizcalizacioncontrol/herramienconsulta/NIIF/Orientaciones%20CTCP/Documento3_Orientaciones_Tecnica_NIIF_para_las_Pymes_Marco.pdf?utm',
     },
     {
       referencia:
