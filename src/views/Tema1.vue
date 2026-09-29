@@ -559,9 +559,9 @@
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t1/img11.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-3.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3 Seguidamente, se expone ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:          
+          p.mb-3 Seguidamente, se expone un ejemplo que aplica los elementos de la verificación contable para identificar una clasificación incorrecta:          
           p Una empresa recibe $ 1.000.000 de un cliente por una factura pendiente, pero registra el recaudo como una nueva venta. El error duplica el ingreso y mantiene la cuenta por cobrar.
-          p.mb-0 La corrección consiste en reversar el ingreso incorrecto, disminuir la cuenta por cobrar y confirmar que el recibo de caja esté asociado con la factura correspondiente.
+          p.mb-0 La corrección consiste en revertir el ingreso incorrecto, disminuir la cuenta por cobrar y confirmar que el recibo de caja esté asociado con la factura correspondiente.
       p(data-aos="fade-left") El siguiente pódcast complementa el tema mediante un caso aplicado sobre errores contables, sus efectos y las verificaciones necesarias para prevenir inconsistencias.
       //- Inicio Podcast
       .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-2(data-aos="fade-left")
