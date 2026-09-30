@@ -410,11 +410,11 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img11.png', alt='', style="width: 420px")
       p(data-aos="fade-left") El correcto diligenciamiento permite reconstruir cada operación y comprobar su relación con los documentos que la respaldan. El siguiente video desarrolla los datos de un registro completo y explica su aplicación en los libros contables.
-      .row.justify-content-center.align-items-center           
+      .row.justify-content-center.align-items-center
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/QOflEZhPvz8?si=rjL4O86atX8yi-CX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       Separador
       //- Inicio Tema3.7
       .row
@@ -426,7 +426,7 @@
           .pt-3.pb-5.px-5
             //- Carrusel
             .bg-full-width.mt-5
-              .px-4.px-md-5.pb-md-3             
+              .px-4.px-md-5.pb-md-3
                 .carousel-bg
                   .row.justify-content-center.mb-5.align-items-center
                     .col-lg-8.mb-3.mb-lg-0.order-lg-2
@@ -566,5 +566,4 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
 <style lang="sass"></style>
