@@ -436,37 +436,37 @@
                           .p-4
                             h4.card-title.text-center.mb-3 Bancos
                             p.mb-2 #[b Documento de comparación:] extracto bancario y conciliación.
-                            p.mb-0 #[b Posibles inconsistencias:] Pagos no registrados, movimientos duplicados o diferencias pendientes de conciliación.
+                            p.mb-0 #[b Posibles inconsistencias:] pagos no registrados, movimientos duplicados o diferencias pendientes de conciliación.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_2.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Clientes
                             p.mb-2 #[b Documento de comparación:] auxiliar de cartera y facturas de venta.
-                            p.mb-0 #[b Posibles inconsistencias:] Recaudos no aplicados, facturas omitidas o saldos asignados al cliente equivocado.
+                            p.mb-0 #[b Posibles inconsistencias:] recaudos no aplicados, facturas omitidas o saldos asignados al cliente equivocado.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_3.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Proveedores
                             p.mb-2 #[b Documento de comparación:] auxiliar de cuentas por pagar y facturas de compra.
-                            p.mb-0 #[b Posibles inconsistencias:] Facturas omitidas, pagos mal aplicados o registros duplicados.
+                            p.mb-0 #[b Posibles inconsistencias:] facturas omitidas, pagos mal aplicados o registros duplicados.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_4.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Inventarios
                             p.mb-2 #[b Documento de comparación:] kárdex y conteo físico.
-                            p.mb-0 #[b Posibles inconsistencias:] Diferencias entre las existencias físicas y las cantidades registradas contablemente.
+                            p.mb-0 #[b Posibles inconsistencias:] diferencias entre las existencias físicas y las cantidades registradas contablemente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_5.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Ingresos y gastos
                             p.mb-2 #[b Documentos de comparación:] facturas, recibos y comprobantes.
-                            p.mb-0 #[b Posibles inconsistencias:] Ventas omitidas o duplicadas y gastos sin soporte o clasificados incorrectamente.
+                            p.mb-0 #[b Posibles inconsistencias:] ventas omitidas o duplicadas y gastos sin soporte o clasificados incorrectamente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t3/tarjeta04_6.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Impuestos
                             p.mb-2 #[b Documentos de comparación:] declaraciones, facturas y auxiliares contables.
-                            p.mb-0 #[b Posibles inconsistencias:] Impuestos omitidos, bases incorrectas o retenciones mal registradas.
+                            p.mb-0 #[b Posibles inconsistencias:] impuestos omitidos, bases incorrectas o retenciones mal registradas.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/temas/t3/img12.png', style="width: 300px", data-aos="zoom-in").m-auto
